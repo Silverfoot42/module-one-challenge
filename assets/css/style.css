@@ -1,13 +1,16 @@
+/*Universal selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Effects the whole background*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Styles the header as a whole*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*Formats the Horiseon at the top of the page*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changes the color of the seo in Horiseon*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Styles the navigation bar*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+/*Commented out because it doesn't appear to be necessary*/
+/*.header nav ul {
     list-style-type: none;
-}
+}*/
 
+/*Formats the options on the navigation bar into a line*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Changes the color of the links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Sets the font size for all of the paragraphs*/
 p {
     font-size: 16px;
 }
 
+/*Styles the large image right underneath the header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*Positions the image for the search engine optimization box and the social media marketing box*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Positions the image for the online reputation management box*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Formats the boxes where the content in the sections for search engine optimization, online reputation mangement, and social media marketing goes*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Formats the side bar with the icons on the side of the webpage*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/*Formats the text for the lead generation section of the side bar*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Formats the text for the brand awareness section of the side bar*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Formats the text for the cost management section of the side bar*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Aligns the heading for the lead generation section of the side bar*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Aligns the heading for the brand awareness section of the side bar*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Aligns the heading for the cost management section of the side bar*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Formats the icon for the lead generation section of  the side bar*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Formats the icon for the brand awarness section of the side bar*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Formats the icon for the cost management section of the side bar*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Styles the box for search engine optimization and it's content*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/*Styles the box for online reputation management and it's content*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/*Styles the box for social media marketing and it's content*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/*Changes the size of the image in the search engine optimization section*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Changes the size of the image in the online reputation management section*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Changes the size of the image in the social media marketing section*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Formats the heading of the search engine optimization section*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Formats the heading of the online reputation management section*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Formats the heading of the social media marketing section*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Formats the text for the footer section*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/*Changes font size for the footer heading*/
+.footer h4 {
     font-size: 20px;
 }
