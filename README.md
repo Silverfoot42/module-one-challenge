@@ -3,3 +3,7 @@
 ## Description
 
 The finished solution for the challenge included in module 1.
+
+## Screenshot
+
+![Alt text](module-one-challenge/module-one-challenge-screenshot.png)
